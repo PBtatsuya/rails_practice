@@ -1,0 +1,27 @@
+current directory: /home/vagrant/rails_5.2.4.3/sample_app/vendor/bundle/ruby/2.7.0/gems/byebug-11.1.3/ext/byebug
+/home/vagrant/.rbenv/versions/2.7.1/bin/ruby -I /home/vagrant/.rbenv/versions/2.7.1/lib/ruby/2.7.0 -r ./siteconf20201013-3746-g9a9o3.rb extconf.rb
+creating Makefile
+
+current directory: /home/vagrant/rails_5.2.4.3/sample_app/vendor/bundle/ruby/2.7.0/gems/byebug-11.1.3/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /home/vagrant/rails_5.2.4.3/sample_app/vendor/bundle/ruby/2.7.0/gems/byebug-11.1.3/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+context.c: In function 'dt_inherited':
+context.c:641: ??: function might be possible candidate for attribute 'noreturn'
+??????:
+cc1: ??: unrecognized command line option "-Wno-tautological-compare"
+cc1: ??: unrecognized command line option "-Wno-self-assign"
+cc1: ??: unrecognized command line option "-Wno-parentheses-equality"
+cc1: ??: unrecognized command line option "-Wno-constant-logical-operand"
+cc1: ??: unrecognized command line option "-Wno-cast-function-type"
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: /home/vagrant/rails_5.2.4.3/sample_app/vendor/bundle/ruby/2.7.0/gems/byebug-11.1.3/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20201013-3746-2ynshx/byebug

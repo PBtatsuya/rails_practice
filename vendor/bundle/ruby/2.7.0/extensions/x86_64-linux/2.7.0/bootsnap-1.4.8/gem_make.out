@@ -1,0 +1,26 @@
+current directory: /home/vagrant/rails_5.2.4.3/sample_app/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.4.8/ext/bootsnap
+/home/vagrant/.rbenv/versions/2.7.1/bin/ruby -I /home/vagrant/.rbenv/versions/2.7.1/lib/ruby/2.7.0 -r ./siteconf20201013-3746-xdjjwh.rb extconf.rb
+creating Makefile
+
+current directory: /home/vagrant/rails_5.2.4.3/sample_app/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.4.8/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /home/vagrant/rails_5.2.4.3/sample_app/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.4.8/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+bootsnap.c: In function 'bs_cache_path':
+bootsnap.c:274: ??: format '%014llx' expects type 'long long unsigned int', but argument 5 has type 'uint64_t'
+bootsnap.c: In function 'bs_rb_fetch':
+bootsnap.c:637: ??: 'output_data' may be used uninitialized in this function
+bootsnap.c:637: note: 'output_data' was declared here
+??????:
+cc1: ??: unrecognized command line option "-Wno-tautological-compare"
+cc1: ??: unrecognized command line option "-Wno-self-assign"
+cc1: ??: unrecognized command line option "-Wno-parentheses-equality"
+cc1: ??: unrecognized command line option "-Wno-constant-logical-operand"
+cc1: ??: unrecognized command line option "-Wno-cast-function-type"
+linking shared-object bootsnap/bootsnap.so
+
+current directory: /home/vagrant/rails_5.2.4.3/sample_app/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.4.8/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20201013-3746-hhbf9r/bootsnap
